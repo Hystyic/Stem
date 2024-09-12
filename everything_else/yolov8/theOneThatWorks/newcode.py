@@ -49,7 +49,7 @@ def play_sound_on_right(distance, current_time):
 # Function to query Google Lens via SERPApi
 def query_google_lens(image_path):
     print(f"Querying Google Lens with {image_path}")  # Debug statement
-    api_key = '7365173579649d9ebd3d4aae9e00a879703ea43d1c8787a2b8f92244206d329f'  # Replace with your SERPAPI key
+    api_key = ''  # Replace with your SERPAPI key
     endpoint = 'https://serpapi.com/search?engine=google_lens'
     params = {
         'engine': 'google_lens',
